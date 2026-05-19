@@ -11,3 +11,6 @@ Maria Tereza Verisssimo de Oliveira e Medeiros:https://github.com/mtvom
 )
 ### Descrição: Um sistema no qual seja posivel ver as obras e fazer a compra ou encomenda (por meio do encaminhamento a outro aplicativo).
 ### Principais funcionalidades: Divulgar as artes, estipular preços, e encaminhar as pessoas interessadas nas artes a comprar/encomendar por meio de outro aplicativo.
+
+### Protótipo no Figma
+https://www.figma.com/site/wOYWruxpqKqaoVsDiGi7WP/Acervo-de-Artes-On-line-da-Joanna?node-id=9-2292&t=pEzmbPabaeqM8gz3-1
