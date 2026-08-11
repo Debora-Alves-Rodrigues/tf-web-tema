@@ -27,7 +27,8 @@
 
 # [Modelo Lógico](./prisma/schema.prisma)
 
-# [Modelo Físico](./prisma/seed.js)
+# [Atralho para Seed - Modelo Físico](./prisma/seed.js)
+# [Atralho para Migrations - Modelo Físico](./prisma/migrations)
 
 ### Tabela criada - Neon
 ![print das tabelas criadas no Neon](./Prints/image.png)
