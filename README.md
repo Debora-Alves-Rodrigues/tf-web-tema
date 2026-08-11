@@ -27,9 +27,7 @@
 
 # [Modelo Lógico](./prisma/schema.prisma)
 
-
-# [Modelo Físico] - falta a linkagem p migrations
-
+# [Modelo Físico](./prisma/seed.js)
 
 # Explicando Relacionamentos, Entidades e outras funções no arquivo do [Modelo Conceitual](./db/conceitual.png)
 
