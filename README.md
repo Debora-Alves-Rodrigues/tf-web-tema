@@ -25,21 +25,54 @@
 
     O sistema tem como principal objetivo resolver obstáculos referentes à divulgação dos trabalhos da artista, uma vez que, o site foca em possibilitar a exposição das obras de arte facilitando assim o acesso dos produtos para o público que esteja interessado em se tornar consumidor das obras.
 
-# Explicando Relacionamentos, Entidades e outras funções no arquivo do [Modelo Conceitual](./db/Conceptual-model-BRMW.png)
+# [Modelo Lógico](./prisma/schema.prisma)
 
-## Artista
+
+# [Modelo Físico] - falta a linkagem p migrations
+
+
+# Explicando Relacionamentos, Entidades e outras funções no arquivo do [Modelo Conceitual](./db/conceitual.png)
+
+## Entidades
+
+### Artista
     A entidade ‘Artista’ tem como função guardar informações sobre a Dona do site: Joanna. Ela é terá uma versão da página do site para ela fazer o controle das Obras de Arte.
-# Relacionamentos
+
+#### Relacionamentos
     Possui relacionamento direto com a entidade “obra de arte” através da ação “Vende”.
 
-# 
-Conta com os atributos identificadores como: id(identidade), nome, biografia e foto url. E atributos
-de contato, como email, telefone e Instagram.
+#### Atributos
+    Conta com os atributos identificadores como: id(identidade), nome, biografia e foto url. E atributos de contato, como email, telefone e Instagram.
 
-Em relação a sua cardinalidade, a entidade ‘Artista’ pode vender no mínimo uma e no
-máximo N obras de arte.
-# 
+#### Cardinalidade
+    Em relação a sua cardinalidade, a entidade ‘Artista’ pode vender no mínimo uma e no máximo N obras de arte.
 
-## Cliente
+---
 
-## Obra de Arte
+### Cliente
+    A entidade ‘Cliente’ tem como função acessar o sistema, fazer login com suas informações e comprar as obras expostas pela entidade ‘Artista’.
+
+#### Relacionamentos
+    Se relaciona com a entidade ‘Obra de arte’ através do relacionamento ‘Compra’.
+
+#### Atributos
+    Possui atributos identificadores: fotourl, nome, id ( identidade) e endereço (número e rua). E atributos de contato também, como; telefone e email.
+
+#### Cardinalidade
+    Sobre sua cardinalidade, a entidade ‘cliente’ pode consumir zero ou N de obras de arte.
+
+---
+
+### Obra de Arte
+    A entidade ‘Obra de arte’ tem como função armazenar e expor os designs do site disponíveis para compra produzidos pela entidade ‘Artista’.
+
+#### Relacionamentos
+    Possui conexão com a entidade ‘Artista’ através do relacionamento ‘Vende’ e com a entidade ‘Cliente’ através do relacionamento ‘Compra”.
+    
+#### Atributos
+    Conta com os atributos; id(atributo identificador), título, preço, fotourl, legenda, dataDeCriacao, dimensão e idDoComprador.
+
+#### Cardinalidade
+    Sobre sua cardinalidade, uma obra de arte pode ser comprada por zero ou N clientes, e vendida por um único artista.
+
+---
