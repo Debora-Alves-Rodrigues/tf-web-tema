@@ -29,6 +29,20 @@
 
 # [Modelo Físico](./prisma/seed.js)
 
+### Tabela criada - Neon
+![print das tabelas criadas no Neon](./Prints/image.png)
+
+--- 
+
+### Tabelas preenchidas - Prisma
+![print da tabela obra de arte](./Prints/image-1.png)
+
+![print da tabela cliente](./Prints/image-2.png)
+
+![print da tabela Artista](./Prints/image-3.png)
+
+---
+
 # Explicando Relacionamentos, Entidades e outras funções no arquivo do [Modelo Conceitual](./db/conceitual.png)
 
 ## Entidades
