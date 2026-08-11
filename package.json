@@ -1,0 +1,32 @@
+{
+  "name": "tf-web-tema",
+  "version": "1.0.0",
+  "description": "Exposição e venda das obras de arte de Joanna",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Debora-Alves-Rodrigues/tf-web-tema"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mtvom/yearbook-backend/issues"
+  },
+  "homepage": "https://github.com/mtvom/yearbook-backend#readme",
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prisma": "^6.19.3"
+  }
+}
